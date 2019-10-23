@@ -16,11 +16,18 @@ div p {
 header {
   background-color: #ffe500;
   color: #b20953;
+  padding-bottom: .3em;
 }
 
 .berries a {
   text-decoration: none;
   color: white;
+  display: inline-block;
+  background-color: #b2a212;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+  font-family: Georgia;
+  font-size: 1.125rem;
 }
 
 .berries li {
@@ -28,17 +35,10 @@ header {
   display: inline-block;
 }
 
-nav a {
-  display: inline-block;
-  background-color: #b2a212;
-  padding: .2em .5em;
-  border-radius: 4px;
-  font-family: Georgia;
-}
-
 h1 {
   text-align: center;
   margin: 0;
+  font-size: 3rem;
 }
 
 body {
@@ -50,14 +50,18 @@ body {
 #copywright {
   background-color: #ffe500;
   text-align: center;
-  margin-top: .3em;
-  font-size: .6rem;
+  font-size: 1rem;
   padding: .75em;
   font-family: Georgia;
 }
 
 h2 {
   color: #b20953;
+  font-size: 1.875rem;
+  margin: .3em;
+  margin-left: 0;
+  padding-top: .3em;
+  padding-bottom: .5em;
 }
 
 .content + .text {
@@ -74,7 +78,7 @@ nav a:hover {
 }
 
 .text {
-  padding: .5em;
+  padding: .5em .5em 0 .75em;
   max-width: 40em;
   display: inline-block;
   color: #2f2d13;
@@ -82,10 +86,18 @@ nav a:hover {
 
 .berries {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 img {
   width: 100%;
   max-width: 40em;
   display: block;
+  margin-bottom: .3em;
+}
+
+p {
+  margin-top: .3em;
+  padding-top: .3em;
 }
